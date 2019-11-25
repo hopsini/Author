@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.nav > li > a {
+  padding: 41px 24px;
+  font-family: 'Open Sans', sans-serif; }
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 15px;
+  color: #484c55;
+  border: solid 2px transparent; }
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #49cbcd;
+    background-color: #f8f9fb;
+    border-bottom: solid 2px #49cbcd; }
+
+.navbar-brand {
+  font-size: 35px;
+  font-family: 'Lobster', cursive;
+  padding: 41px;
+  color: #49cbcd; }
+
+.for_person {
+  display: inline-block;
+  width: 202px;
+  height: 202px;
+  background-color: #eeeef0;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer; }
+  .for_person img {
+    width: 100%;
+    display: block; }
+  .for_person:after {
+    content: "+";
+    font-size: 40px;
+    color: red;
+    display: block;
+    position: absolute;
+    left: 44%;
+    top: 35%;
+    opacity: 0;
+    transition: 0.3s; }
+  .for_person:hover:after {
+    opacity: 1; }
+
+.text-center {
+  padding: 108px;
+  font-family: 'Open Sans', sans-serif; }
+
+.h2 {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif; }
+
+.h4 {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif; }
+
+/*# sourceMappingURL=style_preproc.css.map */
